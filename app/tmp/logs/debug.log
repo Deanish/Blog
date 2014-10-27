@@ -1,0 +1,9 @@
+2014-10-27 10:30:14 Debug: Notice (8): Undefined variable: id in [C:\wamp\www\blog\app\Controller\PostsController.php, line 19]
+Trace:
+PostsController::add() - APP\Controller\PostsController.php, line 19
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+

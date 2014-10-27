@@ -1,0 +1,368 @@
+2014-10-27 06:55:01 Error: [MissingActionException] Action TopicsController::inddex() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'inddex',
+)
+Request URL: /blog/topics/inddex
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-27 06:55:21 Error: [MissingActionException] Action TopicsController::inddex() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'inddex',
+)
+Request URL: /blog/topics/inddex
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-27 06:55:25 Error: [MissingActionException] Action TopicsController::inddex() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'inddex',
+)
+Request URL: /blog/topics/inddex
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-27 06:56:09 Error: [MissingActionException] Action TopicsController::inddex() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'inddex',
+)
+Request URL: /blog/topics/inddex
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-27 06:56:14 Error: [MissingViewException] View file "C:\wamp\www\blog\app\View\Topics\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\blog\\app\\View\\Topics\\index.ctp',
+)
+Request URL: /blog/topics/index
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\blog\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-27 07:15:21 Error: [MissingActionException] Action TopicsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'view',
+)
+Request URL: /blog/topics/view/1
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-27 07:34:23 Error: [MissingViewException] View file "C:\wamp\www\blog\app\View\Topics\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\blog\\app\\View\\Topics\\delete.ctp',
+)
+Request URL: /blog/topics/delete/1
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\blog\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-27 07:34:26 Error: [MissingViewException] View file "C:\wamp\www\blog\app\View\Topics\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\blog\\app\\View\\Topics\\delete.ctp',
+)
+Request URL: /blog/topics/delete/1
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\blog\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-27 08:58:50 Error: [MissingControllerException] Controller class TopicController could not be found.
+Exception Attributes: array (
+  'class' => 'TopicController',
+  'plugin' => NULL,
+)
+Request URL: /blog/topic/view/4
+Stack Trace:
+#0 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-27 09:02:22 Error: [MissingActionException] Action TopicsController::index () could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'index ',
+)
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-27 09:02:56 Error: [MissingActionException] Action TopicsController::index () could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'index ',
+)
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-27 09:19:42 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\wamp\www\blog\app\Controller\UsersController.php, line 64]
+2014-10-27 09:19:42 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /blog/users/login
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 64, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 64, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 09:30:39 Error: Fatal Error (4): syntax error, unexpected '/' in [C:\wamp\www\blog\app\Controller\UsersController.php, line 41]
+2014-10-27 09:30:39 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /blog/users/logout
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 41, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 41, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 09:31:33 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp\www\blog\app\Controller\UsersController.php, line 42]
+2014-10-27 09:31:33 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /blog/users/logout
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 42, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 42, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 10:30:09 Warning: Warning (2): Missing argument 1 for PostsController::add() in [C:\wamp\www\blog\app\Controller\PostsController.php, line 13]
+Trace:
+PostsController::add() - APP\Controller\PostsController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-10-27 10:30:14 Warning: Warning (2): Missing argument 1 for PostsController::add() in [C:\wamp\www\blog\app\Controller\PostsController.php, line 13]
+Trace:
+PostsController::add() - APP\Controller\PostsController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-10-27 10:30:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'topic_id' cannot be null
+Request URL: /blog/posts/add
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\blog\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 C:\wamp\www\blog\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `bl...')
+#3 C:\wamp\www\blog\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Post), Array, Array)
+#4 C:\wamp\www\blog\app\Controller\PostsController.php(21): Model->save(Array)
+#5 [internal function]: PostsController->add()
+#6 C:\wamp\www\blog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-27 10:30:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'topic_id' cannot be null
+Request URL: /blog/posts/add
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\blog\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 C:\wamp\www\blog\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `bl...')
+#3 C:\wamp\www\blog\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Post), Array, Array)
+#4 C:\wamp\www\blog\app\Controller\PostsController.php(21): Model->save(Array)
+#5 [internal function]: PostsController->add()
+#6 C:\wamp\www\blog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\wamp\www\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-27 12:07:37 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:07:37 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:07:45 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:07:45 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:07:47 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:07:47 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:07:50 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:07:50 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:07:52 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:07:52 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:07:56 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:07:56 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:08:01 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:08:01 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:08:32 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:08:32 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:08:45 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:08:45 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:08:48 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:08:48 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:08:58 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:08:58 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:09:01 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:09:01 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:09:03 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:09:03 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:09:10 Error: Fatal Error (64): Can't use function return value in write context in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 29]
+2014-10-27 12:09:10 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\\wamp\\www\\blo...', 29, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 12:17:09 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\wamp\www\blog\app\View\Topics\index.ctp, line 50]
+2014-10-27 12:17:09 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /blog/
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 50, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 50, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 13:27:14 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp\www\blog\app\Controller\TopicsController.php, line 33]
+2014-10-27 13:27:14 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /blog/topics/index
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 33, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\blo...', 33, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-27 14:26:07 Error: Fatal Error (1): Call to a member function getUsernameById() on a non-object in [C:\wamp\www\blog\app\View\Topics\view.ctp, line 16]
+2014-10-27 14:26:08 Error: [FatalErrorException] Call to a member function getUsernameById() on a non-object
+Request URL: /blog/topics/view/18
+Stack Trace:
+#0 C:\wamp\www\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\blo...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\blo...', 16, Array)
+#2 C:\wamp\www\blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\blo...', 16, Array)
+#3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
