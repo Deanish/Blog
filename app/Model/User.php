@@ -92,4 +92,24 @@ class User extends AppModel {
 		)
 	);
 
+
+	public $actsAs = array(
+        'Search.Searchable'
+    );
+
+    public $filterArgs = array(
+        'username' => array(
+            'type' => 'like',
+            'field' => 'username'
+        ),
+        'email' => array(
+            'type' => 'like',
+            'field' => 'email'
+        ),
+        'active' => array(
+            'type' => 'value'
+        )
+    );
+
+
 }

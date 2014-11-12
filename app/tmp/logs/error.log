@@ -366,3 +366,293 @@ Stack Trace:
 #3 C:\wamp\www\blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-10-29 08:57:49 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/blog/
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 09:28:49 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/blog/
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 09:09:48 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/blog/
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 09:10:02 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/blog/users
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 09:10:16 Error: Fatal Error (64): Cannot redeclare UsersController::$components in [C:\wamp\www\Blog\app\Controller\UsersController.php, line 47]
+2014-11-10 09:10:17 Error: [FatalErrorException] Cannot redeclare UsersController::$components
+Request URL: /Blog/users
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\wamp\\www\\Blo...', 47)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\wamp\\www\\Blo...', 47, Array)
+#2 C:\wamp\www\Blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\wamp\\www\\Blo...', 47, Array)
+#3 C:\wamp\www\Blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 09:17:26 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /Blog/users
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Core\App.php(227): CakePlugin::path('Search')
+#1 C:\wamp\www\Blog\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'Search')
+#2 [internal function]: App::load('PrgComponent')
+#3 [internal function]: spl_autoload_call('PrgComponent')
+#4 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(110): class_exists('PrgComponent')
+#5 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Search.Prg', Array)
+#6 C:\wamp\www\Blog\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-10 09:17:55 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /Blog/users
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Core\App.php(227): CakePlugin::path('Search')
+#1 C:\wamp\www\Blog\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'Search')
+#2 [internal function]: App::load('PrgComponent')
+#3 [internal function]: spl_autoload_call('PrgComponent')
+#4 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(110): class_exists('PrgComponent')
+#5 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Search.Prg', Array)
+#6 C:\wamp\www\Blog\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-10 09:18:02 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /Blog/users
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Core\App.php(227): CakePlugin::path('Search')
+#1 C:\wamp\www\Blog\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'Search')
+#2 [internal function]: App::load('PrgComponent')
+#3 [internal function]: spl_autoload_call('PrgComponent')
+#4 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(110): class_exists('PrgComponent')
+#5 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Search.Prg', Array)
+#6 C:\wamp\www\Blog\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-10 09:18:10 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /Blog/users
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Core\App.php(227): CakePlugin::path('Search')
+#1 C:\wamp\www\Blog\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'Search')
+#2 [internal function]: App::load('PrgComponent')
+#3 [internal function]: spl_autoload_call('PrgComponent')
+#4 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(110): class_exists('PrgComponent')
+#5 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Search.Prg', Array)
+#6 C:\wamp\www\Blog\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-10 09:18:13 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /Blog/
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Core\App.php(227): CakePlugin::path('Search')
+#1 C:\wamp\www\Blog\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'Search')
+#2 [internal function]: App::load('PrgComponent')
+#3 [internal function]: spl_autoload_call('PrgComponent')
+#4 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(110): class_exists('PrgComponent')
+#5 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Search.Prg', Array)
+#6 C:\wamp\www\Blog\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TopicsController))
+#7 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-10 09:18:25 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /Blog/
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Core\App.php(227): CakePlugin::path('Search')
+#1 C:\wamp\www\Blog\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'Search')
+#2 [internal function]: App::load('PrgComponent')
+#3 [internal function]: spl_autoload_call('PrgComponent')
+#4 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(110): class_exists('PrgComponent')
+#5 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Search.Prg', Array)
+#6 C:\wamp\www\Blog\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TopicsController))
+#7 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-10 09:19:09 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /Blog/
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Core\App.php(227): CakePlugin::path('Search')
+#1 C:\wamp\www\Blog\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'Search')
+#2 [internal function]: App::load('PrgComponent')
+#3 [internal function]: spl_autoload_call('PrgComponent')
+#4 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(110): class_exists('PrgComponent')
+#5 C:\wamp\www\Blog\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Search.Prg', Array)
+#6 C:\wamp\www\Blog\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TopicsController))
+#7 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\wamp\www\Blog\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-10 09:21:47 Error: [MissingControllerException] Controller class Index.ctpController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.ctpController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/index.ctp
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 09:21:56 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/index
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 11:24:23 Error: [MissingControllerException] Controller class FindController could not be found.
+Exception Attributes: array (
+  'class' => 'FindController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/find
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 11:24:38 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [C:\wamp\www\Blog\app\Controller\UsersController.php, line 62]
+2014-11-10 11:24:38 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /Blog/users/find
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#2 C:\wamp\www\Blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#3 C:\wamp\www\Blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:25:14 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [C:\wamp\www\Blog\app\Controller\UsersController.php, line 62]
+2014-11-10 11:25:14 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /Blog/users/find
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#2 C:\wamp\www\Blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#3 C:\wamp\www\Blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:25:19 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [C:\wamp\www\Blog\app\Controller\UsersController.php, line 62]
+2014-11-10 11:25:19 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /Blog/users/find
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#2 C:\wamp\www\Blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#3 C:\wamp\www\Blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:25:21 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [C:\wamp\www\Blog\app\Controller\UsersController.php, line 62]
+2014-11-10 11:25:21 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /Blog/users/find
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#2 C:\wamp\www\Blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 62, Array)
+#3 C:\wamp\www\Blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 11:52:14 Warning: Warning (2): vsprintf(): Too few arguments in [C:\wamp\www\Blog\lib\Cake\basics.php, line 564]
+Trace:
+vsprintf - [internal], line ??
+__ - CORE\Cake\basics.php, line 564
+include - APP\View\Users\index.ctp, line 48
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-12 11:52:19 Warning: Warning (2): vsprintf(): Too few arguments in [C:\wamp\www\Blog\lib\Cake\basics.php, line 564]
+Trace:
+vsprintf - [internal], line ??
+__ - CORE\Cake\basics.php, line 564
+include - APP\View\Users\index.ctp, line 48
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-12 11:52:24 Warning: Warning (2): vsprintf(): Too few arguments in [C:\wamp\www\Blog\lib\Cake\basics.php, line 564]
+Trace:
+vsprintf - [internal], line ??
+__ - CORE\Cake\basics.php, line 564
+include - APP\View\Users\index.ctp, line 48
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-11-12 11:58:06 Error: [MissingControllerException] Controller class UserSearchesController could not be found.
+Exception Attributes: array (
+  'class' => 'UserSearchesController',
+  'plugin' => NULL,
+)
+Request URL: /Blog/user_searches
+Stack Trace:
+#0 C:\wamp\www\Blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 12:08:23 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [C:\wamp\www\Blog\app\Controller\UsersController.php, line 68]
+2014-11-12 12:08:23 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /Blog/users?username=admin&full_name=test
+Stack Trace:
+#0 C:\wamp\www\Blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 68, Array)
+#2 C:\wamp\www\Blog\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Blo...', 68, Array)
+#3 C:\wamp\www\Blog\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -35,6 +35,7 @@ class AppController extends Controller {
 	public $components = array(
 		'DebugKit.Toolbar',
 		'Session',
-		'Auth'
+		'Auth',
+		'Search.Prg'
 		);
 }

@@ -1,4 +1,14 @@
 <div class="users view">
+	<?php
+    echo $this->Form->create();
+    echo $this->Form->input('username');
+    echo $this->Form->input('email');
+    echo $this->Form->input('active', array(
+        'type' => 'checkox'
+    ));
+    echo $this->Form->submit(__('Submit'));
+    echo $this->Form->end();
+?>
 <h2><?php echo __('User'); ?></h2>
 	<dl>
 		<dt><?php echo __('Id'); ?></dt>

@@ -8,12 +8,22 @@ App::uses('AppController', 'Controller');
  */
 class UsersController extends AppController {
 
+	public $name = 'Users'; 
+
+	public $presetVars = array( 
+		array('field' => 'username', 'type' => 'value'),
+		array('field' => 'full_name', 'type' => 'value'),
+	);
+
 /**
  * Components
  *
  * @var array
  */
-	public $components = array('Paginator');
+	public $components = array(
+		'Paginator',
+		'Search.Prg'
+		);
 
 	public function beforeFilter() {
 		$this->Auth->allow('add');
@@ -42,7 +52,33 @@ class UsersController extends AppController {
 
 	}
 
-	public function index() {
+/*	public $components = array(
+        'Search.Prg'
+    );*/
+
+    public function index() {
+
+    	if(AuthComponent::user('role') == 1) {
+			$this->redirect(array('controller' => 'topics', 'action' => 'index'));
+		}
+
+		
+/*		$this->Prg->commonProcess();
+		$this->paginate = array( 
+			'conditions' => $this->Ticket->parseCriteria($this->passedArgs));*/
+
+        $this->Prg->commonProcess();
+        $this->Paginator->settings['conditions'] = $this->User->parseCriteria($this->Prg->parsedParams());
+        $this->set('users', $this->Paginator->paginate());
+    }
+
+/*    public function find() {
+        $this->Prg->commonProcess();
+        $this->Paginator->settings['conditions'] = $this->Article->parseCriteria($this->Prg->parsedParams());
+        $this->set('articles', $this->Paginator->paginate());
+    }*/
+
+/*	public function index() {
 
 		if(AuthComponent::user('role') == 1) {
 			$this->redirect(array('controller' => 'topics', 'action' => 'index'));
@@ -50,7 +86,7 @@ class UsersController extends AppController {
 
 		$this->User->recursive = 0;
 		$this->set('users', $this->Paginator->paginate());
-	}
+	}*/
 
 /**
  * view method
