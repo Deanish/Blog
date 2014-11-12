@@ -8,7 +8,7 @@
 			));
 		echo $this->Form->input('username', array('required' => false)); // empty creates blank option.
 		echo $this->Form->input('full_name', array('required' => false)); // disable div output.
-		echo $this->Form->submit(__('Search', true), array('div' => false));
+		echo $this->Form->submit(__('Search', true));
 		echo $this->Form->end();
 	?>
 	</div>	

@@ -102,12 +102,9 @@ class User extends AppModel {
             'type' => 'like',
             'field' => 'username'
         ),
-        'email' => array(
+        'full_name' => array(
             'type' => 'like',
-            'field' => 'email'
-        ),
-        'active' => array(
-            'type' => 'value'
+            'field' => 'full_name'
         )
     );
 
